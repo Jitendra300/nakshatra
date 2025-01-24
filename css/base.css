@@ -186,9 +186,8 @@ main {
   margin-bottom: 30vh;
   grid-auto-rows: 1fr;
   gap: 1.5rem;
-  background: linear-gradient(to bottom, var(--color-bg), rgba(0,0,0,0.4), var(--color-bg)), url(../img/bg.jpg) no-repeat 50% -10%;
+  background: linear-gradient(to bottom, var(--color-bg), rgba(0,0,0,0.4), var(--color-bg)), url(../img/bg1.jpg) no-repeat 50% -10%;
   background-size: cover;
-  
 }
 
 .intro__title {
