@@ -186,7 +186,7 @@ main {
   margin-bottom: 30vh;
   grid-auto-rows: 1fr;
   gap: 1.5rem;
-  background: linear-gradient(to bottom, var(--color-bg), rgba(0,0,0,0.4), var(--color-bg)), url(../img/bg1.jpg) no-repeat 50% -10%;
+  background: url(../img/bg.jpeg) no-repeat 50% -10%; /* linear-gradient(to bottom, var(--color-bg), rgba(0,0,0,0.4), var(--color-bg)),  */
   background-size: cover;
 }
 
@@ -258,21 +258,6 @@ main {
   font-size: 3rem;
   line-height: 1;
 }
-
-/* .mark__cutter { */
-/*     display: flex; */
-/*     gap: 3rem; */
-/*     width: max-content; */
-/*     position: relative; */
-/*     transform: translateX(100vw); */
-/*     will-change: transform; */
-/* } */
-
-/* .mark__cutter span { */
-/*   white-space: nowrap; */
-/*   font-size: 3rem; */
-/*   line-height: 1; */
-/* } */
 
 section {
   display: grid;
@@ -386,3 +371,4 @@ section {
     text-align: right;
   }
 }
+
